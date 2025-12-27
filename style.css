@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.container-big {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero-spacing {
+  display: flex;
+  flex-direction: column;
+  gap: 8.4rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-box-spacing {
+  gap: 10.8rem;
+  align-items: stretch;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 2rem 0 10.8rem;
+}
+
+.hero-logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.hero-links {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.primary-heading {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #f9faf8;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.cta-btn:link,
+.cta-btn:visited {
+  background-color: #3882f6;
+  padding: 1rem 3.2rem;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+.left {
+  flex: 4;
+}
+.right {
+  flex: 6;
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
